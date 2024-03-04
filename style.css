@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Karla";
 }
 html{
     padding: 0;
@@ -58,5 +59,92 @@ article{
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: -0.01rem;
-    color: #9D9FAB;
+    color:hsl(218, 22%, 67%);
+}
+/* signup -why-us*/
+.signup-why-us{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding:2.5rem 2.81rem;
+    width:50%;
+    align-items: flex-start;
+    background: hsl(179, 62%, 43%);
+    align-self: stretch;
+    color: hsl(204, 43%, 93%);
+}
+.signup h2{
+    font-family: "Karla";
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.01125rem;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5625rem;
+    align-self: stretch;
+}
+.offer p{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.price h1{
+    font-family: Karla;
+    font-size: 2rem;
+    font-weight: 700;
+}
+button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background:hsl(71, 73%, 54%);
+    width: 14.063rem;
+    padding:0.938rem 0.625rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.whyus{
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    padding:2.5rem 2.81rem;
+    align-items: flex-start;
+    color: white;
+    background:#4ABEBD;;
+    width: 50%;
+}
+.whyus h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.whyus ul li{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: -0.02rem;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 4px;
 }

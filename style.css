@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    padding: 0;
+}
+body{
+    background: bisque;
+    width: 90rem;
+    margin: 0 auto;
+    height: 80vh;
+}
+.container{
+    background:hsl(204, 43%, 93%);
+    border: 2px solid greenyellow;
+    width: 90rem;
+    height: 50rem;
+    display: grid;
+    place-items: center;
+}
+article{
+    width: 39.375rem;
+    height: 29.813rem;
+    display: flex;
+    flex-direction: column;
+}
+.join-us{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    background: #fff;
+}
+.join-us h1 {
+    font-size: 1.5rem;
+    font-family: "Karla";
+    font-weight: 700;
+    color:hsl(179, 62%, 43%) ;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text h2{
+    font-size: 1.25rem;
+    font-family: "Karla",sans-serif;
+    font-weight: 700;
+    color:hsl(71, 73%, 54%) ;
+}
+.text p{
+    font-family: "Karla",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.01rem;
+    color: #9D9FAB;
+}

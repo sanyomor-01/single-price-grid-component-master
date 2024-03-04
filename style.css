@@ -9,14 +9,12 @@ html{
     padding: 0;
 }
 body{
-    background: bisque;
     width: 90rem;
     margin: 0 auto;
     height: 80vh;
 }
 .container{
     background:hsl(204, 43%, 93%);
-    border: 2px solid greenyellow;
     width: 90rem;
     height: 50rem;
     display: grid;
@@ -27,6 +25,7 @@ article{
     height: 29.813rem;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
 }
 .join-us{
     padding: 2.5rem;
@@ -34,6 +33,7 @@ article{
     flex-direction: column;
     gap: 1.75rem;
     background: #fff;
+    border-radius: 8px 8px 0 0;
 }
 .join-us h1 {
     font-size: 1.5rem;
@@ -67,6 +67,7 @@ article{
     flex-direction: row;
     justify-items: center;
     align-items: center;
+    border-radius: 0 0 8px 8px;
 }
 .signup{
     display: flex;
@@ -79,6 +80,7 @@ article{
     background: hsl(179, 62%, 43%);
     align-self: stretch;
     color: hsl(204, 43%, 93%);
+    border-radius: 0 0 0 8px;
 }
 .signup h2{
     font-family: "Karla";
@@ -97,7 +99,7 @@ article{
 .offer p{
     font-size: 1rem;
     font-weight: 500;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.04rem;
 }
 .price{
     display: flex;
@@ -135,6 +137,7 @@ button:hover{
     color: white;
     background:#4ABEBD;;
     width: 50%;
+    border-radius: 0 0 8px 0;
 }
 .whyus h2{
     font-size: 1.125rem;
@@ -146,5 +149,5 @@ button:hover{
     letter-spacing: -0.02rem;
     font-weight: 400;
     list-style: none;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }

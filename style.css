@@ -151,3 +151,48 @@ button:hover{
     list-style: none;
     margin-bottom: 2px;
 }
+@media screen and (max-width:430px){
+    .container{
+        background:hsl(204, 43%, 93%);
+        width: 23.4375rem;
+        height: 50.75rem;
+        display: grid;
+        padding: 3.125rem 1.5rem;
+        overflow: hidden;
+    }
+    .signup-why-us{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border-radius: 0 0 8px 8px;
+    }
+    article{
+        width: 19.815rem;
+        height: 44.5rem;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto; /* Enable vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth touch scrolling for iOS */
+        touch-action: pan-y; /* Allow vertical panning (swiping) */
+    }
+    .whyus{
+        width: 100%;
+        overflow-y: auto; /* Enable vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth touch scrolling for iOS */
+        touch-action: pan-y; /* Allow vertical panning (swiping) */
+    }
+    .signup{
+        width:100%;
+        border-radius: 0 0 0 0px;
+    }
+    body
+    {   margin: 0 auto;
+        height: 50vh;
+    
+    }
+    footer{
+        width: 300px;
+        margin-top: 12px  0;
+    }
+}

@@ -159,6 +159,7 @@ button:hover{
         display: grid;
         padding: 3.125rem 1.5rem;
         overflow: hidden;
+        margin: 0 auto;
     }
     .signup-why-us{
         display: flex;
@@ -178,16 +179,14 @@ button:hover{
     }
     .whyus{
         width: 100%;
-        overflow-y: auto; /* Enable vertical scrolling */
-        -webkit-overflow-scrolling: touch; /* Enable smooth touch scrolling for iOS */
-        touch-action: pan-y; /* Allow vertical panning (swiping) */
     }
     .signup{
         width:100%;
         border-radius: 0 0 0 0px;
     }
-    body
-    {   margin: 0 auto;
+    body{
+        width: fit-content;
+        margin: 0 auto;
         height: 50vh;
     
     }
